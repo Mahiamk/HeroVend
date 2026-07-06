@@ -1,11 +1,12 @@
 # Use an official PHP image with Apache
-FROM php:8.3-apache
+FROM php:8.4-apache
 
 # Install system dependencies & PHP extensions needed for Laravel/Filament
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
+    libzip-dev \
     zip \
     unzip \
     git \
@@ -14,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd intl opcache
+    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd intl opcache zip
 
 # Enable Apache mod_rewrite for Laravel routing
 RUN a2enmod rewrite
