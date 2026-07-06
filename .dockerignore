@@ -1,0 +1,16 @@
+.git
+.gitignore
+.github
+node_modules
+vendor
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+.env
+.env.example
+tests
+.editorconfig
+.cursor
+README.md
+AGENTS.md
