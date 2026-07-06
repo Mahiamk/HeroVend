@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+
+@font-face {
+    font-family: "Rinter";
+    src: url("../../public/font/Rinter.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-tagline: "Rinter", sans-serif;
+    --color-primary: #094760;
+    --color-accent: #FF5A1F;
+    --color-border: #D8D8D8;
+    --color-background: #F9FAFB;
+}
