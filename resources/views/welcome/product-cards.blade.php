@@ -1,6 +1,6 @@
 {{-- ===================== PRODUCT CARDS (Page 4) ===================== --}}
 <section id="cards" class="relative w-full overflow-hidden bg-black"
-    style="background-image: url('{{ asset('images/image 80.svg') }}'); background-size: cover; background-position: center; aspect-ratio: 1440 / 810;">
+    style="background-image: url('{{ asset('images/image-80.svg') }}'); background-size: cover; background-position: center; aspect-ratio: 1440 / 810;">
 
     <div class="relative w-full h-full" data-cards-toggle>
 

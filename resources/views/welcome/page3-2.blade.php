@@ -18,7 +18,7 @@
 
 
         {{-- Product Image --}}
-        <img src="{{ asset('images/image 83-2.svg') }}" alt="Champion Machine Capacity" loading="lazy" decoding="async" class="absolute
+        <img src="{{ asset('images/image-83-2.svg') }}" alt="Champion Machine Capacity" loading="lazy" decoding="async" class="absolute
                 w-[1080px]
                 h-[755px]
                 left-[180px]

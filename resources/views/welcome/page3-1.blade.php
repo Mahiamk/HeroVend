@@ -62,7 +62,7 @@
 
 
         {{-- Product Image --}}
-        <img src="{{ asset('images/image 83.svg') }}" alt="Champion Machine" loading="lazy" decoding="async" class="absolute
+        <img src="{{ asset('images/image-83.svg') }}" alt="Champion Machine" loading="lazy" decoding="async" class="absolute
                 w-[400px]
                 h-[557px]
                 left-[calc(52%-216.12px)]

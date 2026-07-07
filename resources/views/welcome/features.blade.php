@@ -81,8 +81,8 @@
 
         {{-- Background Image (Clean, No blur, No overlay) --}}
         <picture>
-            <source srcset="{{ asset('images/image 69.webp') }}" type="image/webp">
-            <img src="{{ asset('images/image 69.png') }}" alt="Stats background" loading="lazy" decoding="async"
+            <source srcset="{{ asset('images/image-69-2.webp') }}" type="image/webp">
+            <img src="{{ asset('images/image-69-2.png') }}" alt="Stats background" loading="lazy" decoding="async"
                 class="absolute inset-0 w-full h-full object-cover">
         </picture>
 
