@@ -19,7 +19,7 @@
 
         {{-- Left Information --}}
         <div
-            class="absolute left-[200px] top-[330px] w-[274px] h-[86.21px] border border-[#FB480D] bg-white px-6 py-[18px] flex flex-col justify-center gap-3 z-20">
+            class="absolute left-[283px] top-[330px] w-[274px] h-[86.21px] border border-[#FB480D] bg-white px-6 py-[18px] flex flex-col justify-center gap-3 z-20">
 
             <p class="font-tagline uppercase text-[12px] tracking-wide text-[#FB480D]">
                 VENDING MACHINE
@@ -34,7 +34,7 @@
 
         {{-- Model --}}
         <div
-            class="absolute left-[200px] top-[424.1px] w-[274px] h-[37.95px] border border-neutral-600 bg-white px-6 py-3 flex items-center z-20">
+            class="absolute left-[283px] top-[424.1px] w-[274px] h-[37.95px] border border-neutral-600 bg-white px-6 py-3 flex items-center z-20">
 
             <p class="font-tagline text-[14px] text-neutral-700">
                 Model:
@@ -72,7 +72,7 @@
 
         {{-- Right Information --}}
         <div
-            class="absolute right-[212px] top-[462.05px] w-[257px] h-[72px] border border-neutral-500 bg-white px-6 py-3 flex flex-col justify-center gap-1 z-20">
+            class="absolute right-[290px] top-[462.05px] w-[257px] h-[72px] border border-neutral-500 bg-white px-6 py-3 flex flex-col justify-center gap-1 z-20">
 
             <p class="font-tagline text-[11px] leading-[13px] text-neutral-500 whitespace-nowrap">
                 Dimensions (Height × Width × Depth)
@@ -87,7 +87,7 @@
 
         {{-- Weight --}}
         <div
-            class="absolute right-[321px] top-[541.05px] w-[148px] h-[44px] border border-neutral-500 bg-white px-6 py-3 flex items-center gap-2 z-20">
+            class="absolute right-[399px] top-[541.05px] w-[148px] h-[44px] border border-neutral-500 bg-white px-6 py-3 flex items-center gap-2 z-20">
 
             <span class="font-tagline text-sm text-neutral-500">
                 Weight
